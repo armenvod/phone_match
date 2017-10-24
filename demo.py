@@ -2,6 +2,7 @@ from fonAPI import FonApi
 
 fon = FonApi('401bfde5401d0bdce2edddba6bcaa1d4bc8e4d17091b92cd')
 
+#JC Testing git
 #brand = 'Samsung '
 phone = 'Samsung Galaxy J3 Smartphone, Android, 5", 4G LTE, SIM Free, 8GB,'
 
