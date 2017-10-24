@@ -1,6 +1,7 @@
 import sys
 import json
 import requests
+proxies = {'https' : 'vfukukproxy.internal.vodafone.com:8080'}
 """
     Class FonApi
     Author @jesusperiago
@@ -51,7 +52,7 @@ class FonApi:
         :return requests.post result:
         """
         try:
-            result = requests.post(url, data=json.dumps(postdata), headers=headers)
+            result = requests.post(url, data=json.dumps(postdata), headers=headers, proxies=proxies)
 
             # Consider any status other than 2xx an error
             if not result.status_code // 100 == 2:
