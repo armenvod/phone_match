@@ -1,11 +1,4 @@
-phone1 = ' Samsung Galaxy S7 Edge 32GB Sim free'
+phone1 = 'Samsung Galaxy S8 Smartphone, Android, 5.8", 4G LTE, SIM Free, 64GB'
 
-
-
-def  brand_search(phone):
-    splitter = phone.split()
-    for i in len(splitter):
-        brand = splitter[i]
-
-
+print(phone1.replace(',',''))
 
