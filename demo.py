@@ -1,13 +1,9 @@
-
-
-
 from fonAPI import FonApi
 
 fon = FonApi('401bfde5401d0bdce2edddba6bcaa1d4bc8e4d17091b92cd')
 
 #brand = 'Samsung '
-phone1 = 'Samsung Galaxy J3 Smartphone, Android, 5", 4G LTE, SIM Free, 8GB,'
-
+phone = 'Samsung Galaxy J3 Smartphone, Android, 5", 4G LTE, SIM Free, 8GB,'
 
 
 '''def brand_search(phone):
@@ -64,7 +60,4 @@ def phone_search(phone):
             l = l + 1
     print(result)
 
-phone_search(phone1)
-
-
-
+phone_search(phone)
